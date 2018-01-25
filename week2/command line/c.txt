@@ -1,0 +1,236 @@
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ cat greeting.txt >1.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ cat 1.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ cat greeting.txt >2.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ cat greeting.txt >3.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ pwd
+/c/Users/Gebruiker/week2Gitbash
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greeting.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ clear
+
+Gebruiker@Ghenowa MINGW64 ~/week2Gitbash
+$ cd
+
+Gebruiker@Ghenowa MINGW64 ~
+$ pwd
+/c/Users/Gebruiker
+
+Gebruiker@Ghenowa MINGW64 ~
+$ ls
+'3D Objects'/
+a/
+AppData/
+'Application Data'@
+Contacts/
+Cookies@
+Desktop/
+Documents/
+Downloads/
+Favorites/
+html/
+IntelGraphicsProfiles/
+Links/
+'Local Settings'@
+'Menu Start'@
+MicrosoftEdgeBackups/
+'Mijn documenten'@
+Music/
+NetHood@
+Netwerkprinteromgeving@
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{a273acc3-faa8-11e7-ae5e-8434972458cb}.TM.blf
+NTUSER.DAT{a273acc3-faa8-11e7-ae5e-8434972458cb}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{a273acc3-faa8-11e7-ae5e-8434972458cb}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive/
+Pictures/
+Recent@
+'Saved Games'/
+Searches/
+SendTo@
+Sjablonen@
+style.css
+styles.css
+Videos/
+week2Gitbash/
+
+Gebruiker@Ghenowa MINGW64 ~
+$ mkdir week2Homework
+
+Gebruiker@Ghenowa MINGW64 ~
+$ cd week2Homework
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ pwd
+/c/Users/Gebruiker/week2Homework
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ touch blank
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+blank
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ touch greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+blank  greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+
+
+
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "hello
+hello
+hello
+hello
+hello" >greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt
+hello
+hello
+hello
+hello
+hello
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ touch 1.txt 2.txt 3.txt 4.txt 5.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt >1.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat 1.txt
+hello
+hello
+hello
+hello
+hello
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt >2.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt >3.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt >4.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat greetings.txt >5.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ pwd
+/c/Users/Gebruiker/week2Homework
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ touch pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt  pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "cat" >pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat pets.txt
+cat
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "dog" >>pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "hamster" >>pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat pets.txt
+cat
+dog
+hamster
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "cat" >>commands.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "ls" >>commands.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ echo "pwd" >>commands.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat commands.txt
+cat
+ls
+pwd
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greetings.txt  pets.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ grep -fgaf pets.txt commands.txt >lovelyCommands.txt
+grep: gaf: No such file or directory
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ grep -faf commands.txt pets.txt >>lovelyCommands.txt
+grep: af: No such file or directory
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ grep -Fvxf commands.txt pets.txt >>lovelyCommands.txt
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat lovelyCommans.txt
+cat: lovelyCommans.txt: No such file or directory
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat commands.txt
+cat
+ls
+pwd
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ cat pets.txt
+cat
+dog
+hamster
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
+$ 
+
+Gebruiker@Ghenowa MINGW64 ~/week2Homework
